@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "lib": "link:..\\lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module"
+}
