@@ -12,9 +12,13 @@
       "default": "./output/Main/index.js",
       "types": "./output/Main/index.d.ts"
     },
-    "./*": {
-      "default": "./output/*/index.js",
-      "types": "./output/*/index.d.ts"
+    "./Main": {
+      "default": "./output/Main/index.js",
+      "types": "./output/Main/index.d.ts"
+    },
+    "./People": {
+      "default": "./output/People/index.js",
+      "types": "./output/People/index.d.ts"
     }
   }
 }
