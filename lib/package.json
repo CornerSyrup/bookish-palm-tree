@@ -1,0 +1,20 @@
+{
+  "name": "lib",
+  "sideEffects": false,
+  "scripts": {
+    "start:dev": "spago build",
+    "build": "spago build",
+    "publish": "spago bundle && purs-tsd-gen -d output Main People"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./output/Main/index.js",
+      "types": "./output/Main/index.d.ts"
+    },
+    "./*": {
+      "default": "./output/*/index.js",
+      "types": "./output/*/index.d.ts"
+    }
+  }
+}
